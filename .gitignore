@@ -1,0 +1,46 @@
+# =========================================
+# 📌 NetBeans Java/JavaFX .gitignore
+# =========================================
+
+# NetBeans private configuration
+nbproject/private/
+
+# NetBeans build output
+/build/
+/dist/
+/nbbuild/
+/nbsave/
+
+# Temporary NetBeans files
+*~
+*.lock
+
+# Java compiled files
+*.class
+*.log
+
+# JAR/WAR/EAR (optional – remove if you want to upload JARs)
+*.jar
+*.war
+*.ear
+
+# Java crash logs
+hs_err_pid*
+replay_pid*
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IntelliJ (in case you open project later)
+.idea/
+
+# VSCode (ignore only if you open project there)
+.vscode/
+
+# Other build systems
+/out/
+/target/
+
+# Backup files
+*.bak
